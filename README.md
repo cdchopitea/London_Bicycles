@@ -122,7 +122,7 @@ Full stations period 3 – 13:00, March 27, 2020
 <div align="center">
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_10.png'>
  <br>
-Full stations period 3 – 13:00, March 27, 2020
+ Most popular stations based on time for start and end stations
  </div>
  
  
