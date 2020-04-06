@@ -29,8 +29,9 @@ Nevertheless, to have a decisive conclusion the rides tables will need to be upd
  
 <i>Exhibit 1: </i>
 <br>
-<div align='center'>
+<div align="center">
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_1.png'> 
+ <br>
 Total trips by hour, ordered from greater to lowest total trips
  </div> 
  
@@ -38,8 +39,9 @@ Total trips by hour, ordered from greater to lowest total trips
 <br>
 <i>Exhibit 2: </i>
 <br>
-<div align='center'>
+<div align="center">
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_2.png'> 
+ <br>
 Total trips over 60 second by day of week, ordered from highest to lowest
  </div>
  
@@ -47,8 +49,9 @@ Total trips over 60 second by day of week, ordered from highest to lowest
 <br>
 <i>Exhibit 3: </i>
 <br>
-<div align='center'>
+<div align="center">
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_3.png'> 
+ <br>
 Top 10 most popular routs in the network
  </div>
 
@@ -56,8 +59,9 @@ Top 10 most popular routs in the network
 <br>
 <i>Exhibit 4: </i>
 <br>
-<div align='center'>
- <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_4.png'> 
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_4.png'>
+ <br>
 Types of riders based on time and pleasure/commuting
  </div>
  
