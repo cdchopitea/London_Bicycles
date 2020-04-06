@@ -29,5 +29,7 @@ Nevertheless, to have a decisive conclusion the rides tables will need to be upd
 <br>
 <div align='center'>
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibit_1.png'> 
+Total trips by hour, ordered from greater to lowest total trips
+ </div>
       
 </div>
