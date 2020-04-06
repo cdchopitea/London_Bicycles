@@ -1,7 +1,9 @@
+<div align='center'>
+<h1><b> Executive Summary: London Bicycles Stations and System Health Analysis </b></h1>
+ </div>
 
 <div align='justify', font-size= 15xp>
  
-<h1><b> Executive Summary: London Bicycles Stations and System Health Analysis </b></h1>
 <h2><b>Background and General Findings about London Bicycles </b></h2>
 <br>
 <br>
