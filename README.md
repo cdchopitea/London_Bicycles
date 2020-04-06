@@ -26,12 +26,14 @@ Nevertheless, to have a decisive conclusion the rides tables will need to be upd
  </div>
 <h2><b>Exhibits</b></h2>
  <br>
+ 
 <i>Exhibit 1: </i>
 <br>
 <div align='center'>
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_1.png'> 
 Total trips by hour, ordered from greater to lowest total trips
  </div> 
+ 
 <br>
 <br>
 <i>Exhibit 2: </i>
@@ -40,7 +42,8 @@ Total trips by hour, ordered from greater to lowest total trips
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_2.png'> 
 Total trips over 60 second by day of week, ordered from highest to lowest
  </div>
- <br>
+ 
+<br>
 <br>
 <i>Exhibit 3: </i>
 <br>
