@@ -4,7 +4,6 @@
 <br>
 <div align='justify', font-size= 15xp>
 <h2><b>Background and General Findings about London Bicycles </b></h2>
-<br>
 London’s public bicycle scheme are a great way to get around the city and are widely used, there is a total of 781 bike stations located in the London Area. However, it appears that customer support frequently receive complains about bike stations being empty. To better address this problem a dataset from London bicycles were rides date from 2015-01-04 to 2017-06-14 was analyzed. In this dataset a total of 24,369,201 rentals were registered, however a total of 24,286,001 ‘actual trips’, bike rides over one minute, took place and consider for the study. A 60 seconds threshold was used to determine if a ride was an error either by a customer who unlock the bike by mistake or by the company itself. 
  <br>
  <br>
