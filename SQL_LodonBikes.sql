@@ -1,4 +1,5 @@
-# Big Query
+# Open database in Google BigQuery: Public data, London bicyles (bigquery-public-data.london_bicycles)
+
 
 -- Total rodes above 60 seconds
 
