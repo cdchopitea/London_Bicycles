@@ -1,17 +1,14 @@
 <div align='center'>
 <h1><b> Executive Summary: London Bicycles Stations and System Health Analysis </b></h1>
  </div>
-
-<div align='justify', font-size= 15xp>
- 
-<h2><b>Background and General Findings about London Bicycles </b></h2>
 <br>
+<div align='justify', font-size= 15xp>
+<h2><b>Background and General Findings about London Bicycles </b></h2>
 <br>
 London’s public bicycle scheme are a great way to get around the city and are widely used, there is a total of 781 bike stations located in the London Area. However, it appears that customer support frequently receive complains about bike stations being empty. To better address this problem a dataset from London bicycles were rides date from 2015-01-04 to 2017-06-14 was analyzed. In this dataset a total of 24,369,201 rentals were registered, however a total of 24,286,001 ‘actual trips’, bike rides over one minute, took place and consider for the study. A 60 seconds threshold was used to determine if a ride was an error either by a customer who unlock the bike by mistake or by the company itself. 
  <br>
  <br>
 Bike usage peaks at 8:00 UTC and then at 17:00 UTC, the increased usage around this time may indicate that people are using the bikes to commute to work (Table 9). As well, it appears that most rides are taking place Tuesdays and Thursdays (Table 10). Further, it was found that the most frequently used route start and end in the same stations (Table 11). As such, it was realized that London bikes have mostly two types of users: the commuters, and those who ride for pleasure. As well, to further investigate the types of users present in our dataset, commuters and pleasure riders were further broken down based on trip duration of people’s trips. Renting bikes costs 2 pounds per day and the first 30 minutes of a trip are free, anything above that cost extra, as well a yearly subscription (link). Based on this, commuters and pleasure riders were further broken down into those who ride above or below 30 minutes and those groups above 30 were considered to have a subscription (Table 12).  As well, bike usage appears to be seasonal with higher use during the summer and less so during the winter. However, usage appears to be decreasing (see dashboard) and further investigation on this is essential.
- <br>
  <br>
  <br>
 <h2><b>Analysis and Recommendations </b></h2>
