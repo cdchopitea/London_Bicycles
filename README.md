@@ -7,14 +7,14 @@
 London’s public bicycle scheme are a great way to get around the city and are widely used, there is a total of 781 bike stations located in the London Area. However, it appears that customer support frequently receive complains about bike stations being empty. To better address this problem a dataset from London bicycles were rides date from 2015-01-04 to 2017-06-14 was analyzed. In this dataset a total of 24,369,201 rentals were registered, however a total of 24,286,001 ‘actual trips’, bike rides over one minute, took place and consider for the study. A 60 seconds threshold was used to determine if a ride was an error either by a customer who unlock the bike by mistake or by the company itself. 
  <br>
  <br>
-Bike usage normally peaks at 8:00 UTC and then at 17:00 UTC, the increased usage around this time may indicate that people are using the bikes to commute to work (Exhibit 1). As well, it appears that most rides are taking place Tuesdays and Thursdays (Exhibit 2). Further, it was found that the most frequently used route start and end in the same stations (Exhibit 3). As such, it was realized that London bikes have mostly two types of users: the commuters, and those who ride for pleasure. As well, to further investigate the types of users present in our dataset, commuters and pleasure riders were further broken down based on trip duration of people’s trips. Renting bikes costs 2 pounds per day and the first 30 minutes of a trip are free, anything above that cost extra, as well a yearly subscription (link). Based on this, commuters and pleasure riders were further broken down into those who ride above or below 30 minutes and those groups above 30 were considered to have a subscription (Exhibit 4).  As well, bike usage appears to be seasonal with higher use during the summer and less so during the winter. However, usage appears to be decreasing (see dashboard) and further investigation on this is essential.
+Bike usage normally peaks at 8:00 UTC and then at 17:00 UTC, the increased usage around this time may indicate that people are using the bikes to commute to work (Exhibit 1). As well, it appears that most rides are taking place Tuesdays and Thursdays (Exhibit 2). Further, it was found that the most frequently used route start and end in the same stations (Exhibit 3). As such, it was realized that London bikes have mostly two types of users: the commuters, and those who ride for pleasure. As well, to further investigate the types of users present in our dataset, commuters and pleasure riders were further broken down based on trip duration of people’s trips. Renting bikes costs 2 pounds per day and the first 30 minutes of a trip are free, anything above that cost extra, as well a yearly subscription (link). Based on this, commuters and pleasure riders were further broken down into those who ride above or below 30 minutes and those groups above 30 were considered to have a subscription (Exhibit 4).  As well, bike usage appears to be seasonal with higher use during the summer and less so during the winter. However, usage appears to be decreasing (see <a href"https://datastudio.google.com/s/k872xGjVfJg">dashboard</a>) and further investigation on this is essential.
  <br>
  <br>
 <h2><b>Analysis and Recommendations </b></h2>
 While analyzing the data I noted that the table about rides has the latest date entry in 2017 while stations is updating in real time. Therefore, a deeper understanding of how supply/demand is throughout the day is necessary. For the purpose however, three periods of time were looked at for this analysis, 12:00 and 17:00 UTC of March 27, 2020 and again on March 28, 2020 at 13:00 UTC. The idea was to observe if the same stations were recurrently empty. 
  <br>
  <br>
-There are only two stations that appear to be empty in at least 2 out of the 3 time periods this are ‘Breams Buildings, Holborn’ and ‘Christian Street, Whitechapel’ (Table 3, 4 & 5).  What is more, these stations are not in a frequently use route (Table 11). Only ‘Park Lane, Hyde Park’ which appears empty in the 3rd period seems of concern since this station has frequent use (Table 3 & 11). This station is widely used by the pleasure riders, an important group for the company. As well, there are only 7 empty stations in period 1 and 3 (Table 1 & 2). And again, none of these stations are in a busy route. Finally, the relationship between time of day and most frequent end and start stations was looked at. Again, this confirmed that the most frequently used stations based on time seem to have an adequate supply and demand (Table 13).
+There are only two stations that appear to be empty in at least 2 out of the 3 time periods this are ‘Breams Buildings, Holborn’ and ‘Christian Street, Whitechapel’ (Exhibit 5, 6 & 7).  What is more, these stations are not in a frequently use route (Table 11). Only ‘Park Lane, Hyde Park’ which appears empty in the 3rd period seems of concern since this station has frequent use (Table 3 & 11). This station is widely used by the pleasure riders, an important group for the company. As well, there are only 7 empty stations in period 1 and 3 (Table 1 & 2). And again, none of these stations are in a busy route. Finally, the relationship between time of day and most frequent end and start stations was looked at. Again, this confirmed that the most frequently used stations based on time seem to have an adequate supply and demand (Table 13).
  <br>
  <br>
 Overall, there appears to be neither a big problem with empty nor full stations. There are 781 stations of which only a very small proportion are empty or full. What is more these stations appear to be quite far from each other, meaning that a customer could go to the next closest station either to grab a bike or park. So, the problem does not appear to be of big concern, of course this situation could be improved but it will require a financial investment from the company, and it does not seem to be necessary or urgent to address every single empty station, especially if it is not in a frequently use route, and the empty stations are not always the same one (based on these periods). 
@@ -64,6 +64,37 @@ Top 10 most popular routs in the network
  <br>
 Types of riders based on time and pleasure/commuting
  </div>
+ 
+<br>
+<br>
+<i>Exhibit 5: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_5.png'>
+ <br>
+Empty stations period 1 – 12:00, March 26, 2020
+ </div>
+ 
+ <br>
+<br>
+<i>Exhibit 6: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_6.png'>
+ <br>
+Empty stations period 2 – 17:00, March 26, 2020
+ </div>
+ 
+<br>
+<br>
+<i>Exhibit 7: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_7.png'>
+ <br>
+Empty stations period 3 – 13:00, March 27, 2020
+ </div>
+ 
  
  
       
