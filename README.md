@@ -7,7 +7,7 @@
 London’s public bicycle scheme are a great way to get around the city and are widely used, there is a total of 781 bike stations located in the London Area. However, it appears that customer support frequently receive complains about bike stations being empty. To better address this problem a dataset from London bicycles were rides date from 2015-01-04 to 2017-06-14 was analyzed. In this dataset a total of 24,369,201 rentals were registered, however a total of 24,286,001 ‘actual trips’, bike rides over one minute, took place and consider for the study. A 60 seconds threshold was used to determine if a ride was an error either by a customer who unlock the bike by mistake or by the company itself. 
  <br>
  <br>
-Bike usage normally peaks at 8:00 UTC and then at 17:00 UTC, the increased usage around this time may indicate that people are using the bikes to commute to work (Exhibit 1). As well, it appears that most rides are taking place Tuesdays and Thursdays (Table 10). Further, it was found that the most frequently used route start and end in the same stations (Table 11). As such, it was realized that London bikes have mostly two types of users: the commuters, and those who ride for pleasure. As well, to further investigate the types of users present in our dataset, commuters and pleasure riders were further broken down based on trip duration of people’s trips. Renting bikes costs 2 pounds per day and the first 30 minutes of a trip are free, anything above that cost extra, as well a yearly subscription (link). Based on this, commuters and pleasure riders were further broken down into those who ride above or below 30 minutes and those groups above 30 were considered to have a subscription (Table 12).  As well, bike usage appears to be seasonal with higher use during the summer and less so during the winter. However, usage appears to be decreasing (see dashboard) and further investigation on this is essential.
+Bike usage normally peaks at 8:00 UTC and then at 17:00 UTC, the increased usage around this time may indicate that people are using the bikes to commute to work (Exhibit 1). As well, it appears that most rides are taking place Tuesdays and Thursdays (Exhibit 2). Further, it was found that the most frequently used route start and end in the same stations (Exhibit 3). As such, it was realized that London bikes have mostly two types of users: the commuters, and those who ride for pleasure. As well, to further investigate the types of users present in our dataset, commuters and pleasure riders were further broken down based on trip duration of people’s trips. Renting bikes costs 2 pounds per day and the first 30 minutes of a trip are free, anything above that cost extra, as well a yearly subscription (link). Based on this, commuters and pleasure riders were further broken down into those who ride above or below 30 minutes and those groups above 30 were considered to have a subscription (Table 12).  As well, bike usage appears to be seasonal with higher use during the summer and less so during the winter. However, usage appears to be decreasing (see dashboard) and further investigation on this is essential.
  <br>
  <br>
 <h2><b>Analysis and Recommendations </b></h2>
@@ -23,13 +23,30 @@ Overall, there appears to be neither a big problem with empty nor full stations.
 Nevertheless, to have a decisive conclusion the rides tables will need to be update to the present time. As mentioned, the station dataset updates in real time, while the latest rides in the rides table is dated, and thus customers behaviour may have change since 2017. My final recommendation is this: (1) Based on the data and selected periods there is no evidence to believe investment should be made to increase capacity of stations or build new ones. And, (2) gathering historic data on stations, how often they are empty or full in a day for example over a period of time and updating trips information to 2019-2020 will result in more accurate insights. Making an analysis on this data will be more useful to better identify trends and have a clearer conclusion and recommendation. 
 <br>
  <br>
+ </div>
 <h2><b>Exhibits</b></h2>
- 
+ <br>
 <i>Exhibit 1: </i>
 <br>
 <div align='center'>
- <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibit_1.png'> 
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_1.png'> 
 Total trips by hour, ordered from greater to lowest total trips
+ </div> 
+<br>
+<br>
+<i>Exhibit 2: </i>
+<br>
+<div align='center'>
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_2.png'> 
+Total trips over 60 second by day of week, ordered from highest to lowest
+ </div>
+ <br>
+<br>
+<i>Exhibit 3: </i>
+<br>
+<div align='center'>
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_3.png.png'> 
+Top 10 most popular routs in the network
  </div>
       
-</div>
+      
