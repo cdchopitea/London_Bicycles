@@ -14,7 +14,7 @@ Bike usage normally peaks at 8:00 UTC and then at 17:00 UTC, the increased usage
 While analyzing the data I noted that the table about rides has the latest date entry in 2017 while stations is updating in real time. Therefore, a deeper understanding of how supply/demand is throughout the day is necessary. For the purpose however, three periods of time were looked at for this analysis, 12:00 and 17:00 UTC of March 27, 2020 and again on March 28, 2020 at 13:00 UTC. The idea was to observe if the same stations were recurrently empty. 
  <br>
  <br>
-There are only two stations that appear to be empty in at least 2 out of the 3 time periods this are ‘Breams Buildings, Holborn’ and ‘Christian Street, Whitechapel’ (Exhibit 5, 6 & 7).  What is more, these stations are not in a frequently use route (Table 11). Only ‘Park Lane, Hyde Park’ which appears empty in the 3rd period seems of concern since this station has frequent use (Table 3 & 11). This station is widely used by the pleasure riders, an important group for the company. As well, there are only 7 empty stations in period 1 and 3 (Table 1 & 2). And again, none of these stations are in a busy route. Finally, the relationship between time of day and most frequent end and start stations was looked at. Again, this confirmed that the most frequently used stations based on time seem to have an adequate supply and demand (Table 13).
+There are only two stations that appear to be empty in at least 2 out of the 3 time periods this are ‘Breams Buildings, Holborn’ and ‘Christian Street, Whitechapel’ (Exhibit 5, 6 & 7).  What is more, these stations are not in a frequently use route (Exhibit 3). Only ‘Park Lane, Hyde Park’ which appears empty in the 3rd period seems of concern since this station has frequent use (Exhibit 3 & 7). This station is widely used by the pleasure riders, an important group for the company. As well, there are only 7 full stations in period 1 and 3 (Exhibit 8 & 9). And again, none of these stations are in a busy route. Finally, the relationship between time of day and most frequent end and start stations was looked at. Again, this confirmed that the most frequently used stations based on time seem to have an adequate supply and demand (Exhibit 10).
  <br>
  <br>
 Overall, there appears to be neither a big problem with empty nor full stations. There are 781 stations of which only a very small proportion are empty or full. What is more these stations appear to be quite far from each other, meaning that a customer could go to the next closest station either to grab a bike or park. So, the problem does not appear to be of big concern, of course this situation could be improved but it will require a financial investment from the company, and it does not seem to be necessary or urgent to address every single empty station, especially if it is not in a frequently use route, and the empty stations are not always the same one (based on these periods). 
@@ -93,6 +93,36 @@ Empty stations period 2 – 17:00, March 26, 2020
  <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_7.png'>
  <br>
 Empty stations period 3 – 13:00, March 27, 2020
+ </div>
+ 
+ <br>
+<br>
+<i>Exhibit 8: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_8.png'>
+ <br>
+Full stations period 1 – 12:00, March 26, 2020
+ </div>
+ 
+  <br>
+<br>
+<i>Exhibit 9: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_9.png'>
+ <br>
+Full stations period 3 – 13:00, March 27, 2020
+ </div>
+ 
+ <br>
+<br>
+<i>Exhibit 10: </i>
+<br>
+<div align="center">
+ <img src='https://github.com/cdchopitea/London_Bicycles/blob/master/Exhibits/Exhibit_10.png'>
+ <br>
+Full stations period 3 – 13:00, March 27, 2020
  </div>
  
  
